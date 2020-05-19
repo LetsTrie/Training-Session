@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title>HTML Form</title>
+    <meta name="author" content="Sharmin Afroz" />
+    <meta name="keywords" content="Teaching, Learning" />
+  </head>
+  <body>
+    <div>
+      <form>
+        <!-- Input Type: Text -->
+        <div class="firstName">
+          <p>First Name:</p>
+          <input
+            type="text"
+            placeholder="your first name..."
+            name="firstName"
+            required="true"
+          />
+        </div>
+
+        <!-- Input Type: Email -->
+        <div class="email">
+          <p>Email</p>
+          <input
+            type="email"
+            placeholder="your email address..."
+            name="email"
+            required="true"
+          />
+        </div>
+
+        <!-- Input Type: Password -->
+        <div class="password">
+          <p>Password</p>
+          <input
+            type="password"
+            placeholder="your password..."
+            name="password"
+            required="true"
+          />
+        </div>
+
+        <!-- Input Type: Radio -->
+        <div>
+          <p>Select Gender:</p>
+          <input type="radio" name="gender" value="male" id="maleID" />
+          <label for="maleID">Male</label>
+          <br />
+          <input type="radio" name="gender" value="female" id="femaleID" />
+          <label for="femaleID"> Female</label>
+        </div>
+
+        <!-- Input Type: Checkbox -->
+        <div>
+          <p>Select Favourite Color:</p>
+          <input type="checkbox" name="color" value="black" id="blackID" />
+          <label for="blackID"> Black </label> <br />
+
+          <input type="checkbox" name="color" value="red" id="redID" />
+          <label for="redID"> Red </label> <br />
+
+          <input type="checkbox" name="color" value="blue" id="blueID" />
+          <label for="blueID"> Blue </label> <br />
+        </div>
+
+        <!-- Select Box -->
+        <div>
+          <p>Select Gender</p>
+          <select name="gender">
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+          </select>
+        </div>
+
+        <!-- Form Type: File -->
+        <div>
+          <p>Select File:</p>
+          <input type="file" name="file" />
+        </div>
+
+        <!-- Form Type: Date Picker -->
+        <div>
+          <p>Select Your Birthdate:</p>
+          <input type="date" name="birthdate" />
+        </div>
+
+        <!-- Form Type: Number -->
+        <div>
+          <p>Select Amount:</p>
+          <input
+            type="number"
+            name="amount"
+            placeholder="add your amount here..."
+          />
+        </div>
+
+        <!-- Larger Input Box: Textarea -->
+        <div>
+          <p>Enter your description:</p>
+
+          <textarea
+            cols="50"
+            rows="10"
+            name="description"
+            placeholder="Insert your description here..."
+          >
+          </textarea>
+        </div>
+
+        <!-- Form Type: Submit -->
+        <div class="submitButton">
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
