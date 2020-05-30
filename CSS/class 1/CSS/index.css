@@ -1,0 +1,23 @@
+#IDnameofA {
+  background-color: #721b65;
+  color: white;
+  height: 130px;
+  width: 50%;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 10px; */
+}
+.ClassB {
+  background-color: Pink;
+  color: Black;
+  height: 130px;
+  width: 50%;
+  font-size: 100px;
+  text-align: center;
+}
