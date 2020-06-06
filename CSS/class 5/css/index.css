@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Flex-Parent */
+section {
+  height: 800px;
+  width: 1500px;
+  background: #ffd3e1;
+
+  display: flex;
+
+  /* ["row", column], row-reverse,  column-reverse */
+  flex-direction: column;
+
+  /* "flex-start", flex-end, center, space-between, space-around, space-evenly */
+  /* Works in the direction of "flex-direction" */
+  justify-content: flex-end;
+
+  /* Works in the opposite direction (90 deg) of "flex-direction" */
+  /* flex-start, flex-end, center, Baseline, stretch */
+  align-items: flex-start;
+}
+
+section div {
+  height: 70px;
+  width: 100px;
+  background: #0a97b0;
+  color: white;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.section2 {
+  height: 150px;
+}
