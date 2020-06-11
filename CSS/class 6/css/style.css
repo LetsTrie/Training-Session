@@ -1,0 +1,47 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.our_map_location_heading {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.our_map_location_heading h1 {
+  font-size: 60px;
+}
+.aboutUsSection {
+  padding: 30px 0;
+  margin-bottom: 30px;
+}
+
+.aboutUsSection .flx-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUsSection .flx-parent .flx-child {
+  max-width: 600px;
+}
+
+.aboutUsSection .flx-parent .flx-child .aboutUsHeader {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.aboutUsSection .flx-parent .flx-child .aboutUsDescription {
+  font-size: 18px;
+  color: #575757;
+
+  /* 3 types of spacing in a paragraph */
+  letter-spacing: 1px;
+  /* word-spacing: 10px; */
+  line-height: 30px;
+
+  text-align: justify;
+}
+
+.aboutUsFirstChild {
+  margin-right: 30px;
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.colorExample {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+
+  /* Using Keyword, Hax value, rgb, rgba */
+  color: white;
+  background: rgba(255, 0, 0, 0.657);
+}
+
+.blog {
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #cf1b1bcb;
+  background: pink;
+}
+
+.blog h1 {
+  margin-bottom: 15px;
+}
+
+.blog p {
+  text-align: justify;
+  padding-right: 15px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 30px;
+
+  /* font-weight: bold; */
+}
