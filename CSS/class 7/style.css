@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Viewport */
+.exmpleOfViewPort {
+  /* ####################################################### */
+  /* Single color with background-color */
+  /* background-color: rgba(0, 0, 0, 0.212); */
+
+  /* ####################################################### */
+  /* Insert Image with background-image */
+  /* background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+
+  /* ####################################################### */
+  /* Example of Linear gradient */
+  /* background: linear-gradient(red,white, green, yellow); */
+
+  /* ####################################################### */
+  /* Give a image with a color layer */
+  /* background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.685),
+      rgba(255, 255, 255, 0.384)
+    ),
+    url(bg.jpg);
+ */
+  color: white;
+  height: 100vh;
+
+  /* Use of uigradients.com */
+  background: linear-gradient(to right, #f5af1954, #f1271165), url(bg.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+  border: 1px solid black; */
+}
