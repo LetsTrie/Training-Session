@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(238, 238, 238);
+  height: 100vh;
+}
+
+.ServiceWrapper {
+}
+/* For Comment: Ctrl + / */
+/* ##################################################################### */
+/* Navigation Bar */
+/* ##################################################################### */
+
+.serviceNavigationBar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 25px 150px;
+  background: rgb(55, 47, 73);
+  color: white;
+  border-bottom: 4px solid rgb(231, 40, 40);
+}
+
+.serviceNavigationBar_logo {
+}
+
+.serviceNavigationBar_logo h3 {
+  font-size: 40px;
+}
+
+.serviceNavigationBar_logo h3 span {
+  color: rgb(231, 40, 40);
+}
+
+.serviceNavigationBar_menu {
+  display: flex;
+  align-items: center;
+}
+
+.serviceNavigationBar_menu_link {
+}
+
+.serviceNavigationBar_menu_link a {
+  padding: 15px;
+  padding-right: 40px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* ##################################################################### */
+/* Subscription Box */
+/* ##################################################################### */
+.subscriptionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 35px 150px;
+  background: rgb(55, 47, 73);
+  color: white;
+}
+
+.subscriptionBox_heading {
+}
+
+.subscriptionBox_heading h5 {
+  font-size: 25px;
+}
+
+.subscriptionBox_inputBox {
+  display: flex;
+  align-items: center;
+  /* margin-right: 40px; */
+}
+
+.EmailBox {
+}
+
+.EmailBox input {
+  width: 200px;
+  padding: 8px 50px 8px 10px;
+}
+
+.SubscriptionBtn {
+}
+
+.SubscriptionBtn button {
+  color: white;
+  background-color: rgb(231, 40, 40);
+  padding: 9px 20px;
+  margin-left: 5px;
+  border: none;
+  border: 1px solid rgb(163, 6, 6);
+}
+
+/* ##################################################################### */
+/* Service Module */
+/* ##################################################################### */
+.serviceModule {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.ListOfServices {
+}
+.serviceHeader {
+  padding-bottom: 15px;
+}
+.serviceWrapper {
+}
+.eachService {
+  border: 1px solid rgb(153, 153, 153);
+  background: rgb(192, 192, 192);
+
+  padding: 25px 18px;
+  margin-bottom: 10px;
+
+  max-width: 1000px;
+}
+.eachService_name {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.eachService_desctiption {
+  padding-bottom: 15px;
+  padding-right: 20px;
+  font-size: 17px;
+}
+
+.eachService_price {
+  padding-bottom: 15px;
+}
+.contactUs {
+}
+.getAQuoteSection {
+  background-color: rgb(55, 47, 73);
+  color: white;
+  padding: 20px 40px 15px 15px;
+  width: 450px;
+}
+
+.quote_heading {
+  padding: 10px 0px 20px 0px;
+  font-size: 18px;
+}
+
+.quote_inputbox_wrapper {
+}
+.quote_inputbox {
+}
+.quote_inputbox label {
+  display: block;
+  margin-bottom: 4px;
+}
+.quote_inputbox input {
+  width: 100%;
+  padding: 4px 5px;
+  margin-bottom: 5px;
+}
+.quote_inputbox textarea {
+  width: 100%;
+  padding: 4px 5px;
+  margin-bottom: 5px;
+}
+
+.quote_inputbox_btn {
+}
+
+.quote_inputbox_btn button {
+  color: white;
+  background-color: rgb(231, 40, 40);
+  padding: 9px 20px;
+
+  border: none;
+  border: 1px solid rgb(163, 6, 6);
+}
+
+/* ##################################################################### */
+/* Footer */
+/* ##################################################################### */
+
+.footer {
+  width: 100%;
+  background: rgb(231, 40, 40);
+  color: white;
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 20px;
+}
+
+.footer p {
+}
